@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>EntityFrameworkCore database context for State entities</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.Addresses.States.DatabaseContext</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/Addresses.States.DatabaseContext/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/Addresses.States.DatabaseContext</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/Addresses.States.DatabaseContext</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Addresses.States" Version="1.0.0" />
+    <PackageReference Include="CDorst.DevOps.Code.Entities.Metapackages.EntityFrameworkCore" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
