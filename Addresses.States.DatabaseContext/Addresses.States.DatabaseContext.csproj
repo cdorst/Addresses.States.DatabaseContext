@@ -15,12 +15,12 @@
     <PackageLicenseUrl>https://github.com/cdorst/Addresses.States.DatabaseContext/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/cdorst/Addresses.States.DatabaseContext</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cdorst/Addresses.States.DatabaseContext</RepositoryUrl>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDorst.Addresses.States" Version="1.0.4" />
-    <PackageReference Include="CDorst.DevOps.Code.Entities.Metapackages.EntityFrameworkCore" Version="1.0.4" />
+    <PackageReference Include="CDorst.Addresses.States" Version="1.0.5" />
+    <PackageReference Include="CDorst.DevOps.Code.Entities.Metapackages.EntityFrameworkCore" Version="1.0.5" />
   </ItemGroup>
 
 </Project>
